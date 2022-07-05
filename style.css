@@ -130,3 +130,26 @@ body {
 .platform {
   text-align: center;
 }
+footer {
+  background-color: #0b0d17;
+  height: 256px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+footer h3 {
+  color: #5b5b5b;
+  font-size: 30px;
+  font-weight: 900;
+}
+footer p {
+  color: white;
+  font-size: 16px;
+}
+#eat {
+  color: orange;
+  padding-right: 10px;
+  font-size: 30px;
+  font-weight: 900;
+}
