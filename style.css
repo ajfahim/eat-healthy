@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+.hero {
+  display: flex;
+  justify-content: center;
+  padding: 0 10%;
+  height: 900px;
+}
+.info {
+  width: 40%;
+  padding-top: 11%;
+}
+.info h1 {
+  font-size: 60px;
+  color: #575757;
+}
+.info span {
+  color: orange;
+}
+.info p {
+  font-size: 20px;
+  margin-bottom: 100px;
+  color: #828282;
+}
+.info a {
+  text-decoration: none;
+  background-image: linear-gradient(45deg, #fba24f, #ff1e1e);
+  padding: 20px 50px;
+  color: white;
+  font-size: 20px;
+  border-radius: 30px;
+  font-weight: bold;
+}
+.image {
+  width: 40%;
+}
+.image img {
+  height: 800px;
+}
+.about-me {
+  display: flex;
+  justify-content: center;
+  background-image: url("images/shapes/7.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 600px;
+}
+.about-me .image {
+  position: relative;
+}
+.about-me .image img {
+  padding-top: 5%;
+  height: 536px;
+  bottom: 0;
+  position: absolute;
+  padding-left: 15%;
+}
+.about-me .info {
+  padding-top: 5%;
+}
+.about-me p {
+  color: black;
+}
+.recipe-area {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.recipe-title {
+  margin: 0 auto;
+
+  width: 700px;
+  height: 160px;
+}
+.recipe-title h2 {
+  font-size: 36px;
+  color: #676767;
+  text-align: center;
+}
+.recipe-title p {
+  color: #252525;
+  text-align: center;
+}
+.recipe-items {
+  display: flex;
+  padding-left: 10%;
+  padding-right: 10%;
+  gap: 5%;
+}
+.recipies {
+  width: 610px;
+  padding-bottom: 20px;
+  box-shadow: 10px 10px 15px grey;
+  border-radius: 20px;
+}
+.recipies img {
+  max-width: 550px;
+  border-radius: 20px;
+
+  margin: 26px;
+}
+.recipies h3 {
+  margin-left: 26px;
+}
+.recipies p {
+  margin-left: 26px;
+}
+.showoff {
+  margin: 0 auto;
+  width: 1240px;
+  height: 225px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 5px gray;
+  margin-bottom: 20px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100%;
+}
+.num {
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+}
+.platform {
+  text-align: center;
+}
